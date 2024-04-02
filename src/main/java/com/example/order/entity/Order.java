@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import com.example.order.dto.FoodItemsDTO;
-import com.example.order.dto.RestaurantDTO;
+import com.example.order.dto.Restaurant;
 import com.example.order.dto.UserDTO;
 
 import lombok.AllArgsConstructor;
@@ -22,7 +22,7 @@ public class Order {
 	
 	private List<FoodItemsDTO> foodItemList;
 	
-	private RestaurantDTO restaurantDTO;
+	private Restaurant restaurant;
 	
 	private UserDTO userDTO;
 }
